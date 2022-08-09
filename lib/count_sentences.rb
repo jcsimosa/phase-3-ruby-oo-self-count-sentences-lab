@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(string)
+  c1 = string.end_with?(".")
   end
 
   def question?
